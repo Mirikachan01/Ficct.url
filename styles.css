@@ -1,0 +1,101 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: rgb(214, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #91f8ff;
+    padding: 10px;
+    z-index: 1; /* Agrega esta línea */
+}
+.logo {
+    width: 50px;
+    height: 50px;
+}
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+}
+.grid-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.grid-item img {
+    width: 40%;
+    height: auto;
+    box-shadow: 10px 10px 5px grey;
+}
+.grid-item p {
+    width: 50%;
+    box-shadow: 10px 10px 5px grey;
+}
+.grid-item hr{
+    color: #000000;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.btn {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #94f2ff;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 10px 10px 5px grey;
+}
+.btn a {
+    color: #000000;
+    text-decoration: none;
+}
+.btn:hover {
+    background-color: #0b89ff;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8bb0ff;
+    color: #000000;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.nav-link {
+    padding: 10px;
+    border: 2px solid #000000;
+    transition: background-color 0.3s;
+}
+.nav-link a {
+    color: #3a04ff;
+    text-decoration: none;
+}
+.nav-link:hover {
+    background-color: #15a9ff;
+    box-shadow: 10px 10px 5px grey;
+}
+.grid-item h2{
+    color: rgb(240, 74, 255);
+}

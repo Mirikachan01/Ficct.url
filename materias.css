@@ -1,0 +1,50 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #8cf2ff;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    background-color: #48daff;
+    padding: 10px;
+    z-index: 1; /* Agrega esta línea */
+}
+.back-button {
+    background-color: #5b9cff;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.back-button:hover {
+    background-color: #0f3bff;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.content img {
+    width: 50%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8bb0ff;
+    color: #000000;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
